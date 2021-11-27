@@ -16,7 +16,7 @@ const Root = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Wrapper>
-      <UsersList />
+      <UsersList title="User's list" />
     </Wrapper>
   </ThemeProvider>
 );
